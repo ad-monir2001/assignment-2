@@ -92,7 +92,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 10%;
+    margin: 30px 10%;
 }
 .logo-container img{
     width: 150px;
@@ -127,11 +127,8 @@ nav{
 .hero{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 150px;
     margin: 25px 10%;
-    /* background-color: red; */
-
 }
 
 .hero-text{
