@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@200;300;400;500;700&display=swap");
+
+:root{
+
+    --font-1: "Poppins", sans-serif;
+    --font-2: "Roboto", sans-serif;
+
+    --color-navy-100: rgba(17, 42, 70,1);
+    --color-navy-80: rgba(17, 42, 70,.80);
+    --color-navy-50: rgba(17, 42, 70,.50);
+    --color-navy-25: rgba(17, 42, 70,.25);
+
+    --color-green-100: rgba(20, 138, 20,1);
+    --color-green-75: rgba(20, 138, 20,.75);
+    --color-green-50: rgba(20, 138, 20,.50);
+    --color-green-25: rgba(20, 138, 20,.25);
+
+    --color-white-100: rgba(255, 255, 255, 1);
+    --color-white-75: rgba(255, 255, 255, .75);
+    --color-white-50: rgba(255, 255, 255, .50);
+    --color-white-25: rgba(255, 255, 255, .25);
+
+    --color-dark-100: rgba(33, 37, 41, 1);
+    --color-dark-75: rgba(33, 37, 41, .75);
+    --color-dark-50: rgba(33, 37, 41, .50);
+    --color-dark-25: rgba(33, 37, 41, .25);
+
+    --shadow-1: 3px 4px 12px 1px rgba(0,0,0,0.25);
+}
+
+/** 
+* ! removing default style of the browser
+**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! Commonly used classes */
+
+.navy-btn{
+    background-color: var(--color-navy-100);
+    color: var(--color-white-100);
+    cursor: pointer;
+    border: none;
+    font-family: var(--font-1);
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+.heading-1{
+    color: var(--color-navy-100);
+    font-family: var(--font-2);
+    font-size: 45px;
+}
+.heading-2{
+    color: var(--color-navy-80);
+    font-family: var(--font-2);
+    font-size: 30px;
+}
+.heading-3{
+    color: var(--color-navy-100);
+    font-family: var(--font-2);
+    font-size: 25px;
+}
+
+.label{
+    color: var(--color-green-100);
+    font-family: var(--font-1);
+    font-weight: 400;
+    font-size: 20px;
+}
+
