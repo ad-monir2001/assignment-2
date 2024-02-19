@@ -113,13 +113,6 @@ nav{
     text-decoration: none;
     font-family: var(--font-1);
 }
-.menu-container ul li a:hover {
-    background-color: var(--color-green-100);
-    color: var(--color-white-100);
-    padding: 1px 8px;
-    border-radius: 4px;
-    border: none;
-}
 .menu-container ul li a:not(.active) {
     color: var(--color-navy-100);
 }
@@ -180,17 +173,31 @@ nav{
 
 /* ! Style rule for Dishes section */
 
-#dishes{
-    display: flex;
-    flex-wrap: wrap;
+#sec-2{
+    background-color: white;
+    text-align: center;
+    padding:2em 0;
 }
+
+#dishes{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 25px 10%;
+}
+
 .food-card{
     text-align: center;
-    background-color: var(--color-white-75);
+    background-color: beige;
     border-radius: 8px;
     padding: 10px;
     margin: 8px;
     box-shadow: var(--shadow-1);
+    opacity: 0.7;
+    position: relative;
+}
+
+.food-card:hover{
+    opacity: 1;
 }
 
 .food-card img{
@@ -204,6 +211,18 @@ nav{
     margin-right: 15px;
 }
 
-.fa-solid{
+.fa-star, .fa-star-half-stroke{
     color: var(--color-green-100);
+}
+
+.fa-heart{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background: whitesmoke;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
 }
