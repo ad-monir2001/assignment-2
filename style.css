@@ -96,7 +96,10 @@ nav{
 }
 .logo-container img{
     width: 150px;
-    background-color: beige;
+}
+.logo-container img:hover{
+    width: 170px;
+    transition: .8s;
 }
 
 .menu-container ul{
@@ -109,6 +112,13 @@ nav{
 .menu-container ul li a {
     text-decoration: none;
     font-family: var(--font-1);
+}
+.menu-container ul li a:hover {
+    background-color: var(--color-green-100);
+    color: var(--color-white-100);
+    padding: 1px 8px;
+    border-radius: 4px;
+    border: none;
 }
 .menu-container ul li a:not(.active) {
     color: var(--color-navy-100);
@@ -142,7 +152,13 @@ nav{
     border-radius: 8px;
 }
 
-/* ! Style rule for Hero section */
+.navy-btn:hover{
+    background: var(--color-green-100);
+    transition: 0.5s;
+}
+
+/* ! Style rule for About section */
+
 #about{
     display: flex;
     align-items: center;
@@ -160,4 +176,34 @@ nav{
 
 #about .text{
     max-width: 650px;
+}
+
+/* ! Style rule for Dishes section */
+
+#dishes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-card{
+    text-align: center;
+    background-color: var(--color-white-75);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 8px;
+    box-shadow: var(--shadow-1);
+}
+
+.food-card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.food-card p{
+    display: inline;
+    margin-right: 15px;
+}
+
+.fa-solid{
+    color: var(--color-green-100);
 }
