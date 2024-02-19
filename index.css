@@ -1,0 +1,7 @@
+.green-star{
+    color: green;
+}
+.half-green-star{
+    background: red;
+    background-size: 50% auto;
+}
