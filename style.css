@@ -297,3 +297,21 @@ input, textarea{
     width:600px;
     
 }
+
+/* ! Style rule for footer */
+footer{
+    background: var(--color-navy-100);
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px 5%;
+}
+
+.text-containers{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-2);
+}
+
+footer ul{
+    list-style-type: none;
+}
