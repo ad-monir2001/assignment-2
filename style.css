@@ -247,7 +247,7 @@ nav{
 .customer{
     padding: 15px;
     width: 40%;
-    height: 450px;
+    height: 475px;
     text-align: center;
     background-color: whitesmoke;
     border-radius: 8px;
@@ -264,38 +264,36 @@ nav{
 /* ! Style rule for Contact section */
 
 #contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-white-100);
-    padding: 35px 0;
+    text-align: center;
+    padding: 25px 10%;
+    background-color: whitesmoke;
 }
 
 .form-container{
-    margin: 25px 10%;
-    text-align: center;
-    width: 100%;
-}
-label{
-    display: block;
-}
-form{
-    width: 50%;
-    margin: 50px;
-}
-input, textarea{
-    width: 100%;
-    margin: 9px;
-    padding: 8px 10px;
-    outline: none;
-}
-
-.form-img{
-    background: url(/images/Mussab.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 50%;
+    display: flex;
+    align-items: center;
     
 }
 
+form{
+    width: 90%;
+    padding: 50px;
+}
+input, textarea{
+    display: block;
+    width: 400px;
+    margin: 9px;
+    padding: 8px 10px;
+    background-color: var(--color-navy-50);
+    border:none;
+    border-bottom: 5px solid var(--color-navy-100);
+}
 
+.form-img{
+    width: 50%;
+    border-radius: 8px;
+}
+.form-img img{
+    width:600px;
+    
+}
