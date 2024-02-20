@@ -248,6 +248,7 @@ nav{
     padding: 15px;
     width: 40%;
     height: 475px;
+    overflow: auto;
     text-align: center;
     background-color: whitesmoke;
     border-radius: 8px;
@@ -276,7 +277,7 @@ nav{
 }
 
 form{
-    width: 90%;
+    width: 100%;
     padding: 50px;
 }
 input, textarea{
@@ -284,18 +285,25 @@ input, textarea{
     width: 400px;
     margin: 9px;
     padding: 8px 10px;
+    border-radius: 5px;
     background-color: var(--color-navy-50);
     border:none;
     border-bottom: 5px solid var(--color-navy-100);
 }
-
+input::placeholder{
+    color: var(--color-navy-100);
+    font-family: var(--font-1);
+}
+textarea::placeholder{
+    color: var(--color-navy-100);
+    font-family: var(--font-1);
+}
 .form-img{
     width: 50%;
     border-radius: 8px;
 }
 .form-img img{
-    width:600px;
-    
+    width:600px; 
 }
 
 /* ! Style rule for footer */
@@ -319,3 +327,40 @@ footer ul{
 
 /* ! Style rule for Mediaquery */
 
+@media only screen and (max-width:1024px) {
+    
+    nav{
+        font-size: 25px;
+        margin: 25px 30px;
+    }
+    
+    .hero{
+        gap: 150px;
+        margin: 25px 30px;
+    }
+
+    #about{
+        margin: 25px 30px;
+    }
+
+    #sec-2{
+        background-color: white;
+        padding: 25px 30px;
+    }
+
+    #review{
+        padding: 25px 30px;
+    }
+    #contact{
+        margin: 25px 30px;
+    }
+    #dishes{
+        display:grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 25px 10%;
+    }
+
+    .form-img img{
+        width:400px;
+    }
+}
