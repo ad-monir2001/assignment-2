@@ -263,9 +263,39 @@ nav{
 
 /* ! Style rule for Contact section */
 
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white-100);
+    padding: 35px 0;
+}
+
 .form-container{
+    margin: 25px 10%;
     text-align: center;
+    width: 100%;
 }
 label{
     display: block;
 }
+form{
+    width: 50%;
+    margin: 50px;
+}
+input, textarea{
+    width: 100%;
+    margin: 9px;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.form-img{
+    background: url(/images/Mussab.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    
+}
+
+
