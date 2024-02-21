@@ -52,6 +52,7 @@
     border-radius: 8px;
     font-size: medium;
     margin-top: 10px;
+    display: inline-block;
 }
 
 .heading-1{
@@ -94,13 +95,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 30px 10%;
+    font-size: 25px;
 }
 .logo-container img{
     width: 150px;
-}
-.logo-container img:hover{
-    width: 170px;
-    transition: .8s;
 }
 
 .menu-container ul{
@@ -113,8 +111,6 @@ nav{
 .menu-container ul li a {
     text-decoration: none;
     font-family: var(--font-1);
-}
-.menu-container ul li a:not(.active) {
     color: var(--color-navy-100);
 }
 
