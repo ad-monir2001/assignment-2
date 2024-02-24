@@ -304,6 +304,7 @@ textarea::placeholder{
 }
 .form-img img{
     width:600px; 
+    border-radius: 8px;
 }
 
 
