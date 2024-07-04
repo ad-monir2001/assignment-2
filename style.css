@@ -261,6 +261,7 @@ nav {
   width: 250px;
   height: 250px;
   border-radius: 25px;
+  clip-path: inset(0 3% 0 6% round 5% 20% 0 10%);
 }
 
 .food-card p {
@@ -314,7 +315,7 @@ nav {
 .title img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  clip-path: inset(5% 15% 0 10% round 5% 20% 0 10%);
 }
 
 /* ! Style rule for Contact section */
